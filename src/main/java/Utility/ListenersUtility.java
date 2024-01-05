@@ -1,4 +1,4 @@
-package Utility;
+ package Utility;
 
 import java.io.File;
 import java.io.IOException;
@@ -32,6 +32,7 @@ try {
 @Override
 public  void onTestStart(ITestResult result) {
 }
+
 @Override	
 public void onTestSuccess(ITestResult result) {
 }

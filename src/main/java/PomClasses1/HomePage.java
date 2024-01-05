@@ -21,6 +21,22 @@ public WebElement getAccountSettingIcon() { //Setter
 	
 }
 
-@FindBy(xpath="//a[@href=")
+@FindBy(xpath="//a[@href='/men' and @id='men']")
+private WebElement menMenuLink;
 
+public WebElement getmenMenuLink() {
+	return menMenuLink;
+	
 }
+@FindBy(xpath="//a[text()='T-shirts']")
+
+private WebElement TshirtPopUpLink;
+
+public WebElement getTshirtPopUpLink() {
+	return TshirtPopUpLink;
+	
+}
+
+	
+}
+

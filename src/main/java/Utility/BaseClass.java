@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import PomClasses1.AccountSettingPage;
+import PomClasses1.HomePage;
 import PomClasses1.LoginPage;
 import PomClasses1.WelcomePage;
 
